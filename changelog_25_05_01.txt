@@ -1,0 +1,12 @@
+changelog_20_05_01:
+	main_file.cpp:
+		drawScene():
+			zmieniona deklaracja macierzy P (linia 163):
+				glm::mat4 P = glm::perspective(glm::radians(50.0f), 1.0f, 1.0f, floor_size/10);
+			
+			zmienione wymiary okna createWindow()
+			
+	
+	
+	textures\Skybox:
+		podmienione wszystkie pliki
